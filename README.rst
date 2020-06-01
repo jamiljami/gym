@@ -1,5 +1,9 @@
 **Status:** Maintenance (expect bug fixes and minor updates)
 
+Jamil was here to edit some text. 
+
+
+
 OpenAI Gym
 **********
 
@@ -43,7 +47,7 @@ should know:
 
 - `reset(self)`: Reset the environment's state. Returns `observation`.
 - `step(self, action)`: Step the environment by one timestep. Returns `observation`, `reward`, `done`, `info`.
-- `render(self, mode='human')`: Render one frame of the environment. The default mode will do something human friendly, such as pop up a window. 
+- `render(self, mode='human')`: Render one frame of the environment. The default mode will do something human friendly, such as pop up a window.
 
 Supported systems
 -----------------
@@ -77,8 +81,8 @@ You'll be able to run a few environments right away:
 We recommend playing with those environments at first, and then later
 installing the dependencies for the remaining environments.
 
-You can also `run gym on gitpod.io <https://gitpod.io/#https://github.com/openai/gym/blob/master/examples/agents/cem.py>`_ to play with the examples online.  
-In the preview window you can click on the mp4 file you want to view. If you want to view another mp4 file, just press the back button and click on another mp4 file. 
+You can also `run gym on gitpod.io <https://gitpod.io/#https://github.com/openai/gym/blob/master/examples/agents/cem.py>`_ to play with the examples online.
+In the preview window you can click on the mp4 file you want to view. If you want to view another mp4 file, just press the back button and click on another mp4 file.
 
 Installing everything
 ---------------------
@@ -182,7 +186,7 @@ What's new
 - 2020-01-24 (v0.15.5)
     + pyglet 1.4 compatibility
     - remove python-opencv from the requirements
-   
+
 - 2019-11-08 (v0.15.4)
     + Added multiple env wrappers (thanks @zuoxingdong and @hartikainen!)
     - Removed mujoco >= 2.0 support due to lack of tests
@@ -195,7 +199,7 @@ What's new
     + Remove rgb_rendering_tracking logic from mujoco environments (default behavior stays the same for the -v3 environments, rgb rendering returns a view from tracking camera)
     + Velocity goal constraint for MountainCar (thanks @abhinavsagar)
     + Taxi-v2 -> Taxi-v3 (add missing wall in the map to replicate env as describe in the original paper, thanks @kobotics)
-    
+
 - 2019-07-26 (v0.14.0)
     + Wrapper cleanup
     + Spec-related bug fixes
